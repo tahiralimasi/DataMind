@@ -8,7 +8,7 @@ import MLPrediction from './pages/MLPrediction';
 import AISuggestions from './pages/AISuggestions';
 
 const pages = {
-  dashboard: { title: 'Good evening 👋', subtitle: 'Upload a dataset and let DataMind analyze it.' },
+  dashboard: { title: '👋 Welcome to DataMind AI — Analyze Smarter.', subtitle: 'Upload a dataset and let DataMind analyze it.' },
   dataset: { title: 'Dataset Analysis & EDA', subtitle: 'Upload a dataset to automatically explore and understand your data.' },
   ai: { title: 'AI Suggestions', subtitle: 'Get intelligent recommendations to prepare your dataset for machine learning.' },
   ml: { title: 'Machine Learning', subtitle: 'Train a model and generate predictions from your dataset.' },
