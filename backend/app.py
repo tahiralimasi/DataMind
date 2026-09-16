@@ -52,7 +52,7 @@ CORS(app, resources={r"/api/*": {"origins": "*"}})
 load_dotenv()
 load_dotenv(os.path.join(os.path.dirname(os.path.abspath(__file__)), '.env'))
 
-UPLOAD_FOLDER = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'uploads')
+UPLOAD_FOLDER = os.path.join('/tmp', 'uploads')
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 current_dataset = None
 original_dataframe = None
