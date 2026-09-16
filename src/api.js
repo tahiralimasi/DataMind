@@ -1,4 +1,4 @@
-export const API_BASE_URL = 'http://127.0.0.1:5000';
+export const API_BASE_URL = 'https://datamind-nine.vercel.app';
 
 export const backendUnavailableMessage =
   'Backend server is not running. Start Flask on port 5000.';
